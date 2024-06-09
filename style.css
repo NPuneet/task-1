@@ -1,0 +1,130 @@
+/* Basic styles for color blocks */
+.rgb {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+/* Specific colors */
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+/* Hide elements by default */
+.hidden {
+  display: none;
+}
+
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  padding: 3vh;
+}
+
+#header {
+  height: 350px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  background-color: #a91d3a;
+}
+
+.color {
+  margin-top: 16px;
+  height: 50%;
+  width: 30%;
+  display: flex;
+  padding: 2vh;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.color1, .color2, .color3 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.color1 div, .color2 div, .color3 div {
+  margin-top: 16px;
+  height: 80%;
+  width: 20%;
+  cursor: pointer;
+}
+
+#red1 {
+  background-color: red;
+}
+
+#red2 {
+  background-color: #823242;
+}
+
+#red3 {
+  background-color: #f18097;
+}
+
+#blue1 {
+  background-color: rgb(9, 9, 74);
+}
+
+#blue2 {
+  background-color: rgb(27, 27, 148);
+}
+
+#blue3 {
+  background-color: rgb(42, 42, 166);
+}
+#blue4 {
+  background-color: rgb(25, 25, 180);
+}
+#blue5 {
+  background-color: rgb(58, 58, 232);
+}
+
+#green1 {
+  background-color: rgb(38, 138, 76);
+}
+
+#green2 {
+  background-color: rgb(21, 148, 70);
+}
+
+#green3 {
+  background-color: rgb(12, 198, 12);
+}
+#green4 {
+  background-color: rgb(60, 255, 60);
+}
+
+.outer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
